@@ -2,7 +2,7 @@
 
 A modern, dark-themed personal portfolio website built with vanilla HTML, CSS, and JavaScript.
 
-![Portfolio Preview](assets/Screenshot 2026-09-19 210805.png)
+![Portfolio Preview](assets/webpage_preview.png)
 
 ## 🔗 Live Demo
 
