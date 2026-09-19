@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sudhansh Khandelwal — Portfolio</title>
+  <meta name="description" content="Personal portfolio of Sudhansh Khandelwal — ECE student at BITS Pilani, Hyderabad. Interests in software, AI/ML, electronics, and computer architecture." />
+  <meta name="author" content="Sudhansh Khandelwal" />
+  <meta property="og:title" content="Sudhansh Khandelwal — Portfolio" />
+  <meta property="og:description" content="ECE student at BITS Pilani, Hyderabad. Software, AI/ML, Electronics & Computer Architecture." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Phosphor Icons -->
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/regular/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/fill/style.css" />
+
+  <!-- Favicon (simple inline SVG data URI) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%23dc2626'/><text x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-family='Inter,sans-serif' font-weight='700' font-size='36' fill='white'>S</text></svg>" type="image/svg+xml" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-accent">S</span>udhansh<span class="logo-dot">.</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#leadership" class="nav-link">Leadership</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Let's Talk</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <p class="hero-greeting reveal-up">Hello, I'm</p>
+        <h1 class="hero-title reveal-up">
+          Sudhansh<br />
+          <span class="hero-title-accent">Khandelwal</span>
+        </h1>
+        <p class="hero-subtitle reveal-up">
+          <span class="subtitle-tag">ECE</span> @ BITS Pilani, Hyderabad Campus
+        </p>
+        <p class="hero-description reveal-up">
+          An Electronics &amp; Communication Engineering student with a hands-on approach to building across software development, AI/ML and embedded systems.
+        </p>
+        <div class="hero-cta reveal-up">
+          <a href="#projects" class="btn btn-primary">
+            View Projects <i class="ph ph-arrow-right"></i>
+          </a>
+          <a href="resume.pdf" class="btn btn-outline" download>
+            Download CV <i class="ph ph-download-simple"></i>
+          </a>
+        </div>
+        <div class="hero-socials reveal-up">
+          <a href="https://github.com/sudhansh81205" target="_blank" rel="noopener noreferrer" class="social-pill">
+            <i class="ph-bold ph-github-logo"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/sudhansh-khandelwal-82b318192/" target="_blank" rel="noopener noreferrer" class="social-pill">
+            <i class="ph-bold ph-linkedin-logo"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="mailto:f20240255@hyderabad.bits-pilani.ac.in" class="social-pill">
+            <i class="ph-bold ph-envelope-simple"></i>
+            <span>Email</span>
+          </a>
+        </div>
+      </div>
+      <div class="hero-image reveal-scale">
+        <div class="hero-image-accent"></div>
+        <div class="hero-image-wrapper">
+          <img src="assets/photo.jpg" alt="Sudhansh Khandelwal" width="400" height="400" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-col reveal-left">
+          <div class="about-image-card">
+            <img src="01-BITS.webp" alt="Sudhansh Khandelwal" width="340" height="340" />
+            <div class="about-image-badge">
+              <span class="badge-number">3+</span>
+              <span class="badge-label">Projects Built</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text-col">
+          <p class="section-label reveal-up">About Me</p>
+          <h2 class="section-heading reveal-up">
+            ECE Student at<br />BITS Pilani, Hyderabad
+          </h2>
+          <p class="about-paragraph reveal-up">
+            I'm a third-year Electronics &amp; Communication Engineering student at BITS Pilani, Hyderabad Campus. My interests sit at the intersection of hardware and software — from designing processor datapaths in Verilog to building multi-threaded systems in C++ and ML-powered applications in Python.
+          </p>
+          <p class="about-paragraph reveal-up">
+            I enjoy working on problems that bridge digital design, computer architecture, data structures, and machine learning. Whether it's implementing a RISC-V processor from scratch, building a concurrent order-matching engine, or training ML models for prediction tasks, I like getting into the details and building things end to end.
+          </p>
+          <p class="about-paragraph reveal-up">
+            Outside academics, I serve as the Coordinator for the Ultimate Frisbee team on campus, managing logistics and vendor operations.
+          </p>
+          <a href="#contact" class="btn btn-primary reveal-up" style="margin-top: 0.5rem;">
+            Get In Touch <i class="ph ph-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION ========== -->
+  <section class="section education" id="education">
+    <div class="container">
+      <p class="section-label reveal-up">Education</p>
+      <h2 class="section-heading reveal-up">Academic Background</h2>
+
+      <div class="timeline">
+        <!-- BITS -->
+        <div class="timeline-item reveal-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">BITS Pilani, Hyderabad Campus</h3>
+                <p class="timeline-subtitle">B.E. Electronics &amp; Communication Engineering</p>
+              </div>
+              <span class="timeline-date">2024 — 2028</span>
+            </div>
+            <div class="timeline-body">
+              <span class="timeline-score"><strong>CGPA:</strong> 8.54</span>
+              <p class="timeline-detail">
+                Coursework: Signals &amp; Systems, Microprocessors &amp; Interfacing, Digital Design, Data Structures &amp; Algorithms, Electronic Devices, Microelectronic Circuits, Electrical Sciences, Control Systems
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Class XII -->
+        <div class="timeline-item reveal-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Tagore Public School</h3>
+                <p class="timeline-subtitle">Class XII — CBSE</p>
+              </div>
+              <span class="timeline-date">2024</span>
+            </div>
+            <div class="timeline-body">
+              <span class="timeline-score"><strong>Score:</strong> 91.4%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Class X -->
+        <div class="timeline-item reveal-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">St Anslem North City School</h3>
+                <p class="timeline-subtitle">Class X — CBSE</p>
+              </div>
+              <span class="timeline-date">2022</span>
+            </div>
+            <div class="timeline-body">
+              <span class="timeline-score"><strong>Score:</strong> 89.8%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <p class="section-label reveal-up">Skills</p>
+      <h2 class="section-heading reveal-up">Technical Proficiency</h2>
+
+      <div class="skills-grid">
+        <!-- Programming -->
+        <div class="skill-card reveal-up">
+          <div class="skill-icon"><i class="ph ph-code"></i></div>
+          <h3 class="skill-title">Programming</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>C++</span><span>SQL</span><span>Verilog</span>
+          </div>
+        </div>
+
+        <!-- OOP & DSA -->
+        <div class="skill-card reveal-up">
+          <div class="skill-icon"><i class="ph ph-tree-structure"></i></div>
+          <h3 class="skill-title">DSA &amp; OOP</h3>
+          <div class="skill-tags">
+            <span>Data Structures</span><span>Object-Oriented Programming</span>
+          </div>
+        </div>
+
+        <!-- ML / Data Science -->
+        <div class="skill-card reveal-up">
+          <div class="skill-icon"><i class="ph ph-brain"></i></div>
+          <h3 class="skill-title">ML / Data Science</h3>
+          <div class="skill-tags">
+            <span>Machine Learning</span><span>Scikit-Learn</span><span>NumPy</span><span>Pandas</span><span>Matplotlib</span>
+          </div>
+        </div>
+
+        <!-- Electronics -->
+        <div class="skill-card reveal-up">
+          <div class="skill-icon"><i class="ph ph-cpu"></i></div>
+          <h3 class="skill-title">Electronics</h3>
+          <div class="skill-tags">
+            <span>Microprocessors</span><span>Embedded Systems</span><span>LTSpice</span><span>Simulink</span>
+          </div>
+        </div>
+
+        <!-- Digital Design -->
+        <div class="skill-card reveal-up">
+          <div class="skill-icon"><i class="ph ph-circuit-board"></i></div>
+          <h3 class="skill-title">Digital Design / HDL</h3>
+          <div class="skill-tags">
+            <span>Verilog HDL</span><span>RTL Design</span><span>Icarus Verilog</span><span>GTKWave</span>
+          </div>
+        </div>
+
+        <!-- Tools & Databases -->
+        <div class="skill-card reveal-up">
+          <div class="skill-icon"><i class="ph ph-database"></i></div>
+          <h3 class="skill-title">Tools &amp; Databases</h3>
+          <div class="skill-tags">
+            <span>MySQL</span><span>Streamlit</span><span>Git</span><span>Multithreading</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <p class="section-label reveal-up">Projects</p>
+      <h2 class="section-heading reveal-up">What I've Built</h2>
+
+      <div class="projects-grid">
+        <!-- Project 1: RISC-V -->
+        <div class="project-card reveal-up">
+          <div class="project-card-header">
+            <div class="project-icon"><i class="ph ph-microchip"></i></div>
+            <span class="project-date">Jun 2026 — Present</span>
+          </div>
+          <h3 class="project-title">Single Cycle RISC-V Processor</h3>
+          <p class="project-category">Computer Architecture &amp; Digital Design</p>
+          <p class="project-description">
+            Designed and implemented a 32-bit Single Cycle RISC-V Processor in Verilog HDL supporting arithmetic, logical, memory, and branch instructions. Built the complete processor datapath including ALU, Register File, Control Unit, Program Counter, Instruction Memory, Data Memory, and Sign Extension modules.
+          </p>
+          <ul class="project-highlights">
+            <li>Implemented ADD, SUB, AND, OR, SLT, LW, SW, and BEQ instructions via Main Decoder &amp; ALU Decoder</li>
+            <li>Verified functionality through RTL simulation using Icarus Verilog and GTKWave</li>
+          </ul>
+          <div class="project-tags">
+            <span>Verilog</span><span>RISC-V</span><span>RTL</span><span>Computer Architecture</span>
+          </div>
+        </div>
+
+        <!-- Project 2: LOB -->
+        <div class="project-card reveal-up">
+          <div class="project-card-header">
+            <div class="project-icon"><i class="ph ph-chart-line-up"></i></div>
+            <span class="project-date">May 2026 — Present</span>
+          </div>
+          <h3 class="project-title">Multi-Threaded Limit Order Book &amp; Matching Engine</h3>
+          <p class="project-category">C++, Multithreading, Data Structures, OS</p>
+          <p class="project-description">
+            Developed a multi-threaded Limit Order Book and Matching Engine in C++17 implementing price-time priority for order execution. Designed a producer-consumer architecture using std::thread, std::mutex, and std::condition_variable with a custom thread-safe queue.
+          </p>
+          <ul class="project-highlights">
+            <li>Order submission, matching, modification, cancellation, partial execution, trade history, and persistent logging</li>
+            <li>Efficient STL data structures (std::map, std::deque, std::unordered_map) for fast order lookup</li>
+            <li>Modular OOP design: Order, OrderBook, MatchingEngine, Trade, Logger</li>
+          </ul>
+          <div class="project-tags">
+            <span>C++17</span><span>Multithreading</span><span>Data Structures</span><span>OOP</span>
+          </div>
+        </div>
+
+        <!-- Project 3: Salary Prediction -->
+        <div class="project-card reveal-up">
+          <div class="project-card-header">
+            <div class="project-icon"><i class="ph ph-chart-bar"></i></div>
+            <span class="project-date">Jun 2026 — Present</span>
+          </div>
+          <h3 class="project-title">Employee Salary Prediction</h3>
+          <p class="project-category">Machine Learning &amp; Data Science</p>
+          <p class="project-description">
+            Built an Employee Salary Prediction application using Python, MySQL, Scikit-learn, and Streamlit. Performed data preprocessing, SQL analysis, trained multiple machine learning models, and developed a web interface for real-time salary prediction and data visualization.
+          </p>
+          <ul class="project-highlights">
+            <li>End-to-end ML pipeline from data ingestion to deployed web app</li>
+            <li>Multiple model training and comparison for best prediction accuracy</li>
+          </ul>
+          <div class="project-tags">
+            <span>Python</span><span>Scikit-Learn</span><span>MySQL</span><span>Streamlit</span><span>ML</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <p class="section-label reveal-up">Experience</p>
+      <h2 class="section-heading reveal-up">Internship</h2>
+
+      <div class="experience-card reveal-up">
+        <div class="exp-header">
+          <div class="exp-icon"><i class="ph ph-buildings"></i></div>
+          <div class="exp-info">
+            <h3 class="exp-org">CSIR-CEERI, Jaipur</h3>
+            <p class="exp-role">Embedded Systems Intern</p>
+          </div>
+          <span class="exp-date">May 2026 — Jul 2026</span>
+        </div>
+        <div class="exp-body">
+          <ul class="exp-list">
+            <li>Worked on <strong>TI IWR1843BOOST mmWave radar</strong> for embedded sensing and object detection applications</li>
+            <li>Performed <strong>radar data acquisition, preprocessing, and point cloud analysis</strong> using Python</li>
+            <li>Assisted in testing, analyzing, and documenting <strong>radar-based embedded system</strong> performance and observations</li>
+            <li>Configured radar parameters and validated output using <strong>TI mmWave Demo Visualizer</strong> and related tools</li>
+          </ul>
+        </div>
+        <div class="exp-tags">
+          <span>Embedded Systems</span><span>Python</span><span>mmWave Radar</span><span>Signal Processing</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LEADERSHIP ========== -->
+  <section class="section leadership" id="leadership">
+    <div class="container">
+      <p class="section-label reveal-up">Leadership &amp; Activities</p>
+      <h2 class="section-heading reveal-up">Beyond Academics</h2>
+
+      <div class="leadership-grid">
+        <!-- Coordinator — Ultimate Frisbee -->
+        <div class="leadership-card reveal-up">
+          <div class="leadership-icon"><i class="ph ph-medal"></i></div>
+          <h3 class="leadership-title">Coordinator — Ultimate Frisbee</h3>
+          <p class="leadership-org">BITS Pilani, Hyderabad Campus</p>
+          <p class="leadership-desc">
+            Currently serving as Coordinator for the Ultimate Frisbee team on campus. Responsible for managing the team's logistics and vendor management, ensuring smooth operations for practice sessions and inter-college tournaments.
+          </p>
+        </div>
+
+        <!-- POC — Inter-BITS Sports Fest -->
+        <div class="leadership-card reveal-up">
+          <div class="leadership-icon"><i class="ph ph-flag-pennant"></i></div>
+          <h3 class="leadership-title">POC — Inter-BITS Sports Fest</h3>
+          <p class="leadership-org">BITS Pilani, Hyderabad Campus</p>
+          <p class="leadership-desc">
+            Served as the Point of Contact for two different sports during the Inter-BITS sports tournament hosted on campus. Coordinated and managed the respective sports events, handling scheduling, logistics, and on-ground execution.
+          </p>
+        </div>
+
+        <!-- Badminton -->
+        <div class="leadership-card reveal-up">
+          <div class="leadership-icon"><i class="ph ph-trophy"></i></div>
+          <h3 class="leadership-title">Badminton — Gold Medalist</h3>
+          <p class="leadership-org">St. Anslem North City School</p>
+          <p class="leadership-desc">
+            Won Gold medal at School level badminton competition.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ACHIEVEMENTS ========== -->
+  <section class="section achievements" id="achievements">
+    <div class="container">
+      <p class="section-label reveal-up">Achievements</p>
+      <h2 class="section-heading reveal-up">Competitive Scores</h2>
+
+      <div class="achievements-grid">
+        <div class="achievement-card reveal-up">
+          <div class="achievement-value">98.76</div>
+          <div class="achievement-unit">Percentile</div>
+          <h3 class="achievement-title">JEE Mains 2024</h3>
+          <p class="achievement-date">April 2024</p>
+        </div>
+
+        <div class="achievement-card reveal-up">
+          <div class="achievement-value">11398</div>
+          <div class="achievement-unit">AIR</div>
+          <h3 class="achievement-title">JEE Advanced 2024</h3>
+          <p class="achievement-date">May 2024</p>
+        </div>
+
+        <div class="achievement-card reveal-up">
+          <div class="achievement-value">288</div>
+          <div class="achievement-unit">/ 390</div>
+          <h3 class="achievement-title">BITSAT 2024</h3>
+          <p class="achievement-date">May 2024</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RESUME ========== -->
+  <section class="section resume-section" id="resume">
+    <div class="container resume-cta-container">
+      <div class="resume-cta reveal-up">
+        <i class="ph ph-file-pdf" style="font-size: 2.5rem; color: var(--accent);"></i>
+        <h2>Want the full picture?</h2>
+        <p>Download my resume for a detailed look at my education, projects, skills, and experience.</p>
+        <a href="resume.pdf" class="btn btn-primary btn-lg" download>
+          Download Resume <i class="ph ph-download-simple"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <p class="section-label reveal-up">Contact</p>
+      <h2 class="section-heading reveal-up">Let's Connect</h2>
+      <p class="contact-subtitle reveal-up">
+        Open to internship opportunities, collaborations, and conversations about technology. Feel free to reach out.
+      </p>
+
+      <div class="contact-grid">
+        <a href="mailto:f20240255@hyderabad.bits-pilani.ac.in" class="contact-card reveal-up">
+          <div class="contact-icon"><i class="ph-fill ph-envelope-simple"></i></div>
+          <h3>Email</h3>
+          <p>f20240255@hyderabad.bits-pilani.ac.in</p>
+        </a>
+
+        <a href="tel:+917976031369" class="contact-card reveal-up">
+          <div class="contact-icon"><i class="ph-fill ph-phone"></i></div>
+          <h3>Phone</h3>
+          <p>+91 7976031369</p>
+        </a>
+
+        <a href="https://github.com/sudhansh81205" target="_blank" rel="noopener noreferrer" class="contact-card reveal-up">
+          <div class="contact-icon"><i class="ph-fill ph-github-logo"></i></div>
+          <h3>GitHub</h3>
+          <p>sudhansh81205</p>
+        </a>
+
+        <a href="https://www.linkedin.com/in/sudhansh-khandelwal-82b318192/" target="_blank" rel="noopener noreferrer" class="contact-card reveal-up">
+          <div class="contact-icon"><i class="ph-fill ph-linkedin-logo"></i></div>
+          <h3>LinkedIn</h3>
+          <p>Sudhansh Khandelwal</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">&copy; 2026 Sudhansh Khandelwal. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com/sudhansh81205" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="ph-bold ph-github-logo"></i></a>
+        <a href="https://www.linkedin.com/in/sudhansh-khandelwal-82b318192/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="ph-bold ph-linkedin-logo"></i></a>
+        <a href="mailto:f20240255@hyderabad.bits-pilani.ac.in" aria-label="Email"><i class="ph-bold ph-envelope-simple"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
