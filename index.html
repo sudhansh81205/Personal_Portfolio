@@ -61,7 +61,7 @@
           <span class="subtitle-tag">ECE</span> @ BITS Pilani, Hyderabad Campus
         </p>
         <p class="hero-description reveal-up">
-          An Electronics &amp; Communication Engineering student with a hands-on approach to building across software development, AI/ML and embedded systems.
+          An Electronics &amp; Communication Engineering student with a hands-on approach to building across full-stack development, AI/ML, embedded systems, and computer architecture.
         </p>
         <div class="hero-cta reveal-up">
           <a href="#projects" class="btn btn-primary">
@@ -80,7 +80,7 @@
             <i class="ph-bold ph-linkedin-logo"></i>
             <span>LinkedIn</span>
           </a>
-          <a href="mailto:f20240255@hyderabad.bits-pilani.ac.in" class="social-pill">
+          <a href="mailto:khandelwalsudhansh08@gmail.com" class="social-pill">
             <i class="ph-bold ph-envelope-simple"></i>
             <span>Email</span>
           </a>
@@ -103,7 +103,7 @@
           <div class="about-image-card">
             <img src="01-BITS.webp" alt="Sudhansh Khandelwal" width="340" height="340" />
             <div class="about-image-badge">
-              <span class="badge-number">3+</span>
+              <span class="badge-number">6+</span>
               <span class="badge-label">Projects Built</span>
             </div>
           </div>
@@ -114,10 +114,10 @@
             ECE Student at<br />BITS Pilani, Hyderabad
           </h2>
           <p class="about-paragraph reveal-up">
-            I'm a third-year Electronics &amp; Communication Engineering student at BITS Pilani, Hyderabad Campus. My interests sit at the intersection of hardware and software — from designing processor datapaths in Verilog to building multi-threaded systems in C++ and ML-powered applications in Python.
+            I'm a second-year Electronics &amp; Communication Engineering student (with a Minor in Computing &amp; Intelligence) at BITS Pilani, Hyderabad Campus. My interests span hardware and software — from designing processor datapaths in Verilog to building full-stack applications with Docker and AI-powered chatbots with RAG pipelines.
           </p>
           <p class="about-paragraph reveal-up">
-            I enjoy working on problems that bridge digital design, computer architecture, data structures, and machine learning. Whether it's implementing a RISC-V processor from scratch, building a concurrent order-matching engine, or training ML models for prediction tasks, I like getting into the details and building things end to end.
+            I enjoy working on problems that bridge digital design, computer architecture, data structures, and machine learning. Whether it's implementing a RISC-V processor, building a containerized publishing platform, developing an AI financial chatbot, or training ML models, I like getting into the details and building things end to end.
           </p>
           <p class="about-paragraph reveal-up">
             Outside academics, I serve as the Coordinator for the Ultimate Frisbee team on campus, managing logistics and vendor operations.
@@ -151,7 +151,10 @@
             <div class="timeline-body">
               <span class="timeline-score"><strong>CGPA:</strong> 8.54</span>
               <p class="timeline-detail">
-                Coursework: Signals &amp; Systems, Microprocessors &amp; Interfacing, Digital Design, Data Structures &amp; Algorithms, Electronic Devices, Microelectronic Circuits, Electrical Sciences, Control Systems
+                <strong>Minor:</strong> Computing &amp; Intelligence
+              </p>
+              <p class="timeline-detail">
+                Coursework: Signals &amp; Systems, Microprocessors &amp; Interfacing, Digital Design, Data Structures &amp; Algorithms, Electronic Devices, Microelectronic Circuits, Electrical Sciences, Control Systems, Probability and Statistics
               </p>
             </div>
           </div>
@@ -206,7 +209,7 @@
           <div class="skill-icon"><i class="ph ph-code"></i></div>
           <h3 class="skill-title">Programming</h3>
           <div class="skill-tags">
-            <span>Python</span><span>C++</span><span>SQL</span><span>Verilog</span>
+            <span>Python</span><span>C++</span><span>SQL</span><span>Verilog/SystemVerilog</span><span>JavaScript</span>
           </div>
         </div>
 
@@ -222,9 +225,9 @@
         <!-- ML / Data Science -->
         <div class="skill-card reveal-up">
           <div class="skill-icon"><i class="ph ph-brain"></i></div>
-          <h3 class="skill-title">ML / Data Science</h3>
+          <h3 class="skill-title">ML / AI</h3>
           <div class="skill-tags">
-            <span>Machine Learning</span><span>Scikit-Learn</span><span>NumPy</span><span>Pandas</span><span>Matplotlib</span>
+            <span>Machine Learning</span><span>Deep Learning</span><span>Scikit-Learn</span><span>NumPy</span><span>Pandas</span><span>Matplotlib</span><span>FAISS</span><span>LangChain/RAG</span>
           </div>
         </div>
 
@@ -251,7 +254,7 @@
           <div class="skill-icon"><i class="ph ph-database"></i></div>
           <h3 class="skill-title">Tools &amp; Databases</h3>
           <div class="skill-tags">
-            <span>MySQL</span><span>Streamlit</span><span>Git</span><span>Multithreading</span>
+            <span>MySQL</span><span>PostgreSQL</span><span>Redis</span><span>Docker</span><span>Node.js</span><span>Express</span><span>React</span><span>Streamlit</span><span>Git</span><span>MATLAB</span>
           </div>
         </div>
       </div>
@@ -265,11 +268,52 @@
       <h2 class="section-heading reveal-up">What I've Built</h2>
 
       <div class="projects-grid">
-        <!-- Project 1: RISC-V -->
+        <!-- Project 1: Pingora -->
+        <div class="project-card reveal-up">
+          <div class="project-card-header">
+            <div class="project-icon"><i class="ph ph-globe"></i></div>
+            <span class="project-date">2025</span>
+          </div>
+          <h3 class="project-title">Pingora — Community Publishing Platform</h3>
+          <p class="project-category">Full-Stack Web Development</p>
+          <p class="project-description">
+            Containerized a 4-tier stack (React, Express, PostgreSQL 16, Redis 7) using Docker Compose with automated volume persistence and database seeding. Designed a 6-relation BCNF schema with UUIDv4 surrogate keys and composite candidate keys.
+          </p>
+          <ul class="project-highlights">
+            <li>Eliminated N+1 query overhead with PostgreSQL Recursive CTE for infinite-depth comment trees</li>
+            <li>Engineered multi-statement ACID transactions and cron worker with composite B-Tree indexes for scheduled publishing</li>
+            <li>Integrated Redis caching &amp; TTLs for OTP verification and feed caching with event-driven invalidation</li>
+          </ul>
+          <div class="project-tags">
+            <span>PostgreSQL</span><span>Node.js</span><span>Express</span><span>Redis</span><span>Docker</span><span>React</span>
+          </div>
+        </div>
+
+        <!-- Project 2: FinRAG -->
+        <div class="project-card reveal-up">
+          <div class="project-card-header">
+            <div class="project-icon"><i class="ph ph-robot"></i></div>
+            <span class="project-date">2025</span>
+          </div>
+          <h3 class="project-title">FinRAG — AI Financial Chatbot for SEC 10-K Filings</h3>
+          <p class="project-category">AI / RAG / NLP</p>
+          <p class="project-description">
+            Built an AI financial chatbot that answers queries across 18 SEC 10-K filings using dense vector search and local LLMs. Eliminated math hallucinations by coupling the LLM with a deterministic AST math engine, achieving 83.1% numerical accuracy.
+          </p>
+          <ul class="project-highlights">
+            <li>Hybrid search combining FAISS vector search and BM25 lexical retrieval with Reciprocal Rank Fusion</li>
+            <li>Interactive Gradio UI with verified calculation trees, citation links, and explicit refusal logic</li>
+          </ul>
+          <div class="project-tags">
+            <span>Python</span><span>FAISS</span><span>LangChain/RAG</span><span>Ollama</span><span>BM25</span><span>Gradio</span>
+          </div>
+        </div>
+
+        <!-- Project 3: RISC-V -->
         <div class="project-card reveal-up">
           <div class="project-card-header">
             <div class="project-icon"><i class="ph ph-microchip"></i></div>
-            <span class="project-date">Jun 2026 — Present</span>
+            <span class="project-date">Jun 2025</span>
           </div>
           <h3 class="project-title">Single Cycle RISC-V Processor</h3>
           <p class="project-category">Computer Architecture &amp; Digital Design</p>
@@ -285,20 +329,39 @@
           </div>
         </div>
 
-        <!-- Project 2: LOB -->
+        <!-- Project 4: Object Detection -->
+        <div class="project-card reveal-up">
+          <div class="project-card-header">
+            <div class="project-icon"><i class="ph ph-radar"></i></div>
+            <span class="project-date">Jul 2025</span>
+          </div>
+          <h3 class="project-title">Object Detection &amp; Point Cloud Visualization System</h3>
+          <p class="project-category">Embedded Systems &amp; Signal Processing</p>
+          <p class="project-description">
+            Configured TI IWR1843BOOST mmWave radar for real-time data acquisition via serial communication. Developed a Python-based parser to extract frames and point cloud data from raw radar byte streams using TLV decoding.
+          </p>
+          <ul class="project-highlights">
+            <li>Built an interactive 3D point cloud visualization tool using Matplotlib's mplot3d</li>
+            <li>Optimized for continuous real-time data capture, visualization, and serial communication handling</li>
+          </ul>
+          <div class="project-tags">
+            <span>Python</span><span>TI IWR1843BOOST</span><span>mmWave Radar</span><span>Matplotlib</span>
+          </div>
+        </div>
+
+        <!-- Project 5: LOB -->
         <div class="project-card reveal-up">
           <div class="project-card-header">
             <div class="project-icon"><i class="ph ph-chart-line-up"></i></div>
-            <span class="project-date">May 2026 — Present</span>
+            <span class="project-date">May 2025</span>
           </div>
           <h3 class="project-title">Multi-Threaded Limit Order Book &amp; Matching Engine</h3>
           <p class="project-category">C++, Multithreading, Data Structures, OS</p>
           <p class="project-description">
-            Developed a multi-threaded Limit Order Book and Matching Engine in C++17 implementing price-time priority for order execution. Designed a producer-consumer architecture using std::thread, std::mutex, and std::condition_variable with a custom thread-safe queue.
+            Developed a multi-threaded Limit Order Book and Matching Engine in C++17 implementing price-time priority for real-time order execution. Designed a producer-consumer architecture using std::thread, std::mutex, and std::condition_variable with a custom thread-safe queue.
           </p>
           <ul class="project-highlights">
             <li>Order submission, matching, modification, cancellation, partial execution, trade history, and persistent logging</li>
-            <li>Efficient STL data structures (std::map, std::deque, std::unordered_map) for fast order lookup</li>
             <li>Modular OOP design: Order, OrderBook, MatchingEngine, Trade, Logger</li>
           </ul>
           <div class="project-tags">
@@ -306,11 +369,11 @@
           </div>
         </div>
 
-        <!-- Project 3: Salary Prediction -->
+        <!-- Project 6: Salary Prediction -->
         <div class="project-card reveal-up">
           <div class="project-card-header">
             <div class="project-icon"><i class="ph ph-chart-bar"></i></div>
-            <span class="project-date">Jun 2026 — Present</span>
+            <span class="project-date">Jun 2025</span>
           </div>
           <h3 class="project-title">Employee Salary Prediction</h3>
           <p class="project-category">Machine Learning &amp; Data Science</p>
@@ -339,17 +402,17 @@
         <div class="exp-header">
           <div class="exp-icon"><i class="ph ph-buildings"></i></div>
           <div class="exp-info">
-            <h3 class="exp-org">CSIR-CEERI, Jaipur</h3>
-            <p class="exp-role">Embedded Systems Intern</p>
+            <h3 class="exp-org">CSIR-CEERI, Pilani</h3>
+            <p class="exp-role">Embedded Systems &amp; mmWave Radar Intern</p>
           </div>
-          <span class="exp-date">May 2026 — Jul 2026</span>
+          <span class="exp-date">May 2025 — Jul 2025</span>
         </div>
         <div class="exp-body">
           <ul class="exp-list">
             <li>Worked on <strong>TI IWR1843BOOST mmWave radar</strong> for embedded sensing and object detection applications</li>
-            <li>Performed <strong>radar data acquisition, preprocessing, and point cloud analysis</strong> using Python</li>
-            <li>Assisted in testing, analyzing, and documenting <strong>radar-based embedded system</strong> performance and observations</li>
-            <li>Configured radar parameters and validated output using <strong>TI mmWave Demo Visualizer</strong> and related tools</li>
+            <li>Configured radar parameters, performed <strong>data acquisition, preprocessing, and point cloud analysis</strong> using Python</li>
+            <li>Developed a Python-based parser for <strong>TLV-encoded radar data</strong> and built an interactive 3D visualization tool for spatial analysis</li>
+            <li>Validated radar system performance and documented observations using <strong>TI mmWave Demo Visualizer</strong> and related tools</li>
           </ul>
         </div>
         <div class="exp-tags">
@@ -370,7 +433,7 @@
         <div class="leadership-card reveal-up">
           <div class="leadership-icon"><i class="ph ph-medal"></i></div>
           <h3 class="leadership-title">Coordinator — Ultimate Frisbee</h3>
-          <p class="leadership-org">BITS Pilani, Hyderabad Campus</p>
+          <p class="leadership-org">BITS Pilani, Hyderabad Campus &middot; Aug 2025 — Present</p>
           <p class="leadership-desc">
             Currently serving as Coordinator for the Ultimate Frisbee team on campus. Responsible for managing the team's logistics and vendor management, ensuring smooth operations for practice sessions and inter-college tournaments.
           </p>
@@ -403,9 +466,16 @@
   <section class="section achievements" id="achievements">
     <div class="container">
       <p class="section-label reveal-up">Achievements</p>
-      <h2 class="section-heading reveal-up">Competitive Scores</h2>
+      <h2 class="section-heading reveal-up">Achievements &amp; Competitions</h2>
 
       <div class="achievements-grid">
+        <div class="achievement-card reveal-up">
+          <div class="achievement-value">Top 500</div>
+          <div class="achievement-unit">Rank</div>
+          <h3 class="achievement-title">Amazon ML Challenge</h3>
+          <p class="achievement-date">Sep 2026 &middot; Team Lead</p>
+        </div>
+
         <div class="achievement-card reveal-up">
           <div class="achievement-value">98.76</div>
           <div class="achievement-unit">Percentile</div>
@@ -454,10 +524,10 @@
       </p>
 
       <div class="contact-grid">
-        <a href="mailto:f20240255@hyderabad.bits-pilani.ac.in" class="contact-card reveal-up">
+        <a href="mailto:khandelwalsudhansh08@gmail.com" class="contact-card reveal-up">
           <div class="contact-icon"><i class="ph-fill ph-envelope-simple"></i></div>
           <h3>Email</h3>
-          <p>f20240255@hyderabad.bits-pilani.ac.in</p>
+          <p>khandelwalsudhansh08@gmail.com</p>
         </a>
 
         <a href="tel:+917976031369" class="contact-card reveal-up">
@@ -488,7 +558,7 @@
       <div class="footer-links">
         <a href="https://github.com/sudhansh81205" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="ph-bold ph-github-logo"></i></a>
         <a href="https://www.linkedin.com/in/sudhansh-khandelwal-82b318192/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="ph-bold ph-linkedin-logo"></i></a>
-        <a href="mailto:f20240255@hyderabad.bits-pilani.ac.in" aria-label="Email"><i class="ph-bold ph-envelope-simple"></i></a>
+        <a href="mailto:khandelwalsudhansh08@gmail.com" aria-label="Email"><i class="ph-bold ph-envelope-simple"></i></a>
       </div>
     </div>
   </footer>
